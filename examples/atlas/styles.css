@@ -1,11 +1,47 @@
-header.site-header > .row:last-of-type {
+/*header.site-header > .row:last-of-type {
     background: #2176d2;
+}*/
+
+header {
+  /*background-color: #0f4d90;*/
+  background-color: #2176d2;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 45px;
+  /*vertical-align: middle;*/
+}
+
+header .logo svg, header .logo img {
+  padding-right: .71429rem;
+  padding-left: .71429rem;
+  border-right: 1px solid #fff;
+  display: inline;
+}
+
+header .logo {
+  padding-right: .71429rem;
+  padding-left: .71429rem;
+}
+
+header a {
+  line-height: 40px;
+}
+
+header h1 {
+  color: #fff;
+  line-height: 30px;
+  vertical-align: middle;
+  display: inline;
+}
+
+.row {
+  max-width: inherit;
 }
 
 .mb-root {
-  position: absolute,
-  bottom: 0,
-  top: 87px,
-  left: 0,
-  right: 0,
+  position: absolute;
+  bottom: 0;
+  top: 73px;
+  left: 0;
+  right: 0;
 }

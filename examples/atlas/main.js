@@ -115,11 +115,11 @@ Mapboard.default({
     enabled: true
   },
   rootStyle: {
-    position: 'absolute',
-    bottom: 0,
-    top: '87px',
-    left: 0,
-    right: 0,
+    // position: 'absolute',
+    // bottom: 0,
+    // top: '87px',
+    // left: 0,
+    // right: 0,
   },
   map: {
     imagery: {
