@@ -26,7 +26,7 @@ Under the hood, Mapboard uses Vue.js for rendering and Leaflet for mapping.
 ## Todo
 
 - Write real docs
-- Generalize how parcels are handled for better reusability
+- Generalize how parcels are handled so other cities can use Mapboard
 - Extract Vue+Leaflet bindings into their own package
 - Get to the top of Reddit
 
