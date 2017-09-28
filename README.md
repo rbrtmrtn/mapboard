@@ -2,9 +2,33 @@
 
 _(work in progress)_
 
-Mapboard provides a pluggable Vue.js component for data-rich mapping applications. It combines the look and feel of [Atlas]() with a more flexible, config-driven API.
-
 ![Atlas](http://i.imgur.com/GcZpsgX.png)
+
+Mapboard is a framework for building web applications that answer questions about locations in a city, such as:
+
+- Who owns this property?
+- What building permits have been issued here?
+- What's the neighborhood school for this address?
+
+The goal of this framework is to make it easier to build mapping apps that meet the model of "clickable map on one side, address details on the other". This encompasses a range of common municipal tools such as parcel viewers, permit lookup apps, polling place locators, crime maps, etc.
+
+Mapboard has been written to serve the needs of the City of Philadelphia, but with some effort it could be adapted to fit other cities -- and perhaps regional governments -- as well.
+
+From a technical standpoint, Mapboard is a JavaScript library that accepts a config object and an empty DOM element, and the rest is handled for you. Your config defines:
+
+- The content you want to show for an address
+- Your APIs
+- How the map looks
+- How geocoding should work
+
+Under the hood, Mapboard uses Vue.js for rendering and Leaflet for mapping.
+
+## Todo
+
+- Write real docs
+- Generalize how parcels are handled for better reusability
+- Extract Vue+Leaflet bindings into their own package
+- Get to the top of Reddit
 
 ## Publishing
 
